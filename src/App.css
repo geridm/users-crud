@@ -1,0 +1,35 @@
+/* App.css */
+.principal {
+  width: 100%;
+  height: 100vh;
+
+}
+
+.principal__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start, baseline;
+  height: 11.25rem;
+  min-width: 6.25rem;
+}
+
+.principal__title {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.principal__btn {
+  background-color: #555A88;
+  color: #fdfdfd;
+  border: none;
+  font-size: 1rem;
+
+}
+
+
+
+.principal__title,
+.principal__btn {
+  width: 27%;
+  margin: 4.37rem 3.12rem;
+}

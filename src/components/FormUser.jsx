@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useForm } from "react-hook-form";
+import '../assets/style/FormUser.css'
 
 const FormUser = ({
   createUser,

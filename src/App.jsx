@@ -8,12 +8,10 @@ import UserCard from './components/UserCard'
 
 
 
-
-
 function App() {
 
   const [infoUpdate, setInfoUpdate] = useState()
-  const baseUrl = 'https://users-crud.academlo.tech'
+  const baseUrl = 'https://api-crud-dev-fzef.3.us-1.fl0.io'
   const [users, getUsers, createUser, deleteUser, updateUser] = useFetch(baseUrl)
 
   const [show, setShow] = useState(false)

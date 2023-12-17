@@ -1,3 +1,5 @@
+import '../assets/style/UserCard.css'
+
 const UserCard = ({ user, deleteUser, setInfoUpdate, setShow }) => {
   const handleDelete = () => {
     deleteUser("/users", user.id);

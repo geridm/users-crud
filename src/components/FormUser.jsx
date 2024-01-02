@@ -38,7 +38,7 @@ const FormUser = ({
   };
 
   return (
-    <div className="container__form">
+    
     <form className="form" onSubmit={handleSubmit(submit)}>
       <div className="form__btn">
         <button className="form__btn__close" onClick={handleClose}>
@@ -69,7 +69,7 @@ const FormUser = ({
       </div>
       <button className="form__btn__create">{infoUpdate ? "Actualizar" : "Agregar nuevo usuario"}</button>
     </form>
-    </div>
+    
   );
 };
 
